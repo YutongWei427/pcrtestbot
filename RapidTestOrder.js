@@ -39,7 +39,7 @@ class RapidTestOrder {
             }else if(this.type=="first"){
               aReturn.push("Would you like to reserve a hamburger?");//拒绝汉堡后询问是否需要披萨
             }else{
-              aReturn.push("Thanks for trying our reservation system");
+              aReturn.push("Thanks for trying our restaurant");
               aReturn.push("Maybe next time")//什么都不吃  撒由那拉
               this.isDone = true;
             }
